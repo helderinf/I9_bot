@@ -1,0 +1,18 @@
+{
+  "name": "api-cobrancas",
+  "version": "1.0.0",
+  "description": "API de Cobranças - Consultoria",
+  "main": "api-cobranças.js",
+  "scripts": {
+    "start": "node api-cobranças.js",
+    "dev": "nodemon api-cobranças.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mssql": "^12.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
